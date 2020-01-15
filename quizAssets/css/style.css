@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+}
+
+#timerSpan {
+    margin-left: auto;
+}
+
+.hide {
+    display: none;
+}
+*{
+    margin:10;
+    padding:10;
+    
+    }
+body {
+    background: rgb(204, 204, 129);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#viewHighscores{
+    color: yellow;
+}
+​
+h1{
+    margin-left: 25%;
+  }
+​
+
+#quizBox, #startScreen, #yourscore, #highScores {
+    background-color: rgb(118, 224, 124) ;
+    padding: 5%;
+    margin: 5% 2%;
+    border: 2px solid rgb(243, 99, 42);
+    text-align: center;
+}
+#quizBox {
+    text-align: center;
+}
+#correct, #wrong{
+text-align: center;
+}
+/* Button styling */
+#startQuiz, #submit1, .choice, #back, #clear  {
+    border-color: rgb(131, 171, 207) ;
+    padding: 3px 12px;
+    background-color: rgb(185, 160, 179);
+}
+/**/
+​
+#timerSpan {
+    margin-left: auto;   
+}
+​
+#submit1 {
+    margin-top: 2%;
+}
+#displayscore{
+    font-size: 4rem;
+}
+
